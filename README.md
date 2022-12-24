@@ -26,5 +26,5 @@ omd restart apache
 ```
 
 To Start with your First push Notifications you need to Add a New Notification Rule, chose ntfy_push as notification method and call it with the following parameters
-Parameter 1: your ntfy topic you want to push to
-Parameter 2: HOST, SERVICE or ALL - to describe which notification type you like.
+- Parameter 1: your ntfy topic you want to push to
+* Parameter 2: HOST, SERVICE or ALL - to describe which notification type you like.
