@@ -4,8 +4,8 @@
 
 USER="user" #ntfy user with wrtiepermission to your topic
 PASSWORD="password" #ntfy user password
-TOPIC="$NOTIFY_PARAMETER_1" #ntfy topic you want to push to
-CHECKTYP="$NOTIFY_PARAMETER_2" #Descripe if you want Notifications for HOST, SERVICE or ALL
+TOPIC="$NOTIFY_PARAMETER_1" #ntfy topic you want to push to - will be gathered from check_mk notification parameters if configured correct.
+CHECKTYP="$NOTIFY_PARAMETER_2" #Descripe if you want Notifications for HOST, SERVICE or ALL - will be gathered from check_mk notification parameters if configured correct.
 
 #Notfication for HOST Problems only
 if [[ "$CHECKTYP" == "HOST" ]]
