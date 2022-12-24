@@ -1,0 +1,1 @@
+# ntfy.sh_Check_mk_Notification_script
